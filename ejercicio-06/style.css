@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.grande{
+    width: 95%;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.chica{
+    height: 50vh;
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+.botones{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button{
+    padding: 30%;
+    font-size: 3rem;
+    margin: .5rem;
+}

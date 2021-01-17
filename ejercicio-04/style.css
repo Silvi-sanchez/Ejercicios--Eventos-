@@ -1,0 +1,38 @@
+
+#cajaGrande{
+   width: 500px;
+   height: 400px;
+   border: 2px solid black;
+   display: flex;
+   justify-content: center;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+
+button{
+    width: 5em;
+    height: 2em;
+    border-radius: 3em;
+    margin: 1em;
+    padding: 1em 1em 1em;
+    outline: none;
+    cursor: pointer;
+}
+/* #colorRosa{
+    background-color: pink;
+}
+#colorAzul{
+    background-color: blue;
+}
+#colorVerde{
+    background-color: green;
+}
+#colorNaranja{
+    background-color: orange;
+}
+#colorCeleste{
+    background-color: skyblue;
+}
+#colorRojo{
+    background-color: red;
+} */

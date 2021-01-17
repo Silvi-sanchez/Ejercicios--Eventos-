@@ -1,0 +1,14 @@
+#botones{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+button{
+    width: 70px;
+    height: 40px;
+    margin: 5px;
+}

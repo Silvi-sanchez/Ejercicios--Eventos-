@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ejercicio 12</title>
+</head>
+<body>
+    <body onkeydown="printToTextKey(event)">
+
+    <input type="text" id="texto" onkeyup="myFunction(event)" onkeydown="myFunction(event)" onkeypress="myFunction(event)">
+    <br>
+    <div id="botones"></div>
+
+    <!--El target te dice que elemento disparó el evento.
+    Por ejemplo si tengo un boton con un onclick que llama a la funcion Agregar()
+    y a agregar le paso el evento como parametro
+    Luego desde javascript obtengo el evento y hago event.target, 
+    ahi voy a tener el elemento HTML boton.
+    <button id="btnAgregar" onclick="Agregar(event)">Agregar</button>
+    Ahora desde javascript
+    function Agregar(event){
+        const botonRaiz = event.target;
+        //La variable botonRaiz contiene al btnAgregar
+        //Entonces puedo cambiarle el color al boton. 
+        botonRaiz.style.color='red';
+    }
+    -->
+    <script src="./app.js"></script>
+</body>
+</html>
